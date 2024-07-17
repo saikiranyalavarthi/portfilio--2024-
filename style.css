@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:black;
+  color: #fff;
+  padding: 30px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+h1, h2 {
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+.footer {
+  background-color: #333;
+  color: rgb(193, 15, 15);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 100px;
+}
+
+.footer p {
+  font-size: 0.9em;
+} 
+ Reset some default styles
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+.header {
+  background-color: lightgreen;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+.navbar nav ul li{
+  color: black;
+}
+
+.navbar nav ul li a {
+  color: black;
+  font-size: 1em;
+}
+
+.contact-btn {
+  background-color: white;
+  color: #f97300;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #f97300;
+  color: white;
+  border: 2px solid white;
+}
+
+.hero {
+  text-align: center;
+ height: 550px;
+  background-color: lightgreen;
+}
+
+.hero .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+}
+
+/* Main content styling */
+.main {
+  background-color: white;
+  padding: 20px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Expertise section styling */
+.expertise-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.expertise-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.expertise {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.expertise-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+.expertise-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.expertise-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+.bottom{
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+}
